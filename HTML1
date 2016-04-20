@@ -17,7 +17,7 @@
     <h1>Test header</h1>
         <p>Test paragraph</p>
     <a href="https://w3.org">W3C &amp; HTML5</a>
-        <p></p><abbr title="Hypertext Markup Language &quot;5&quot;">HTML5 (mouseover this to see a tooltip)</abbr>
+        <p></p><abbr title="Hypertext Markup Language &quot;5&quot;">HTML5 (mouseover this to see a tooltip)</abbr> <!-- This is just a mouseover thingy -->
             <h4>This is an unordered list</h4>
         <ul>
             <li>Element 1</li>
