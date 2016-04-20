@@ -1,0 +1,76 @@
+<!doctype html>
+<!--<hr> is used to put a horizontal line in the webpage
+    <br> breaks a line to a next line 
+    <header> <footer> <nav> <article> <section> - All of these are obvious on what you should use them for
+    <div> Sort of a generic container that can hold a variety of different elements like paragraphs, images etc., used for styling purposes
+    <span> is used to add styling to certain parts of paragraphs, to manipulate sentences in JS, and to add attributes such as class and id if no other tag is applicable for this
+    class="something" and id="something" are used for styling purposes, with CSS and JS
+-->
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Test webpage</title>
+    </head>
+
+    <body>
+    <h1>Test header</h1>
+        <p>Test paragraph</p>
+    <a href="https://w3.org">W3C &amp; HTML5</a>
+        <p></p><abbr title="Hypertext Markup Language &quot;5&quot;">HTML5 (mouseover this to see a tooltip)</abbr>
+            <h4>This is an unordered list</h4>
+        <ul>
+            <li>Element 1</li>
+            <li>Element 2</li>
+        </ul>
+            <h4>This is an ordered list</h4>
+        <ol>
+            <li>Element 1</li>
+            <li>Element 2</li>
+        </ol>
+            <q>Test quotes</q>
+            <hr>
+            <blockquote>This is a test blockquote</blockquote>
+            <hr>
+        <p>
+        Here I am <br>
+        Testing a <br>
+        break tag
+        </p>
+            <ol start="5" reversed> <!-- Testing different attributes such as "start" and "reversed" - quite self-explanatory-->
+            <li>Element 1</li>
+            <li>Element 2</li>
+            <li>Element 3</li>
+            </ol>
+        
+        <p id="red1" class="paragraph1"> <!-- Testing CSS here-->
+        This paragraph will be RED using CSS
+        </p>
+        <p id="blue1" class="paragraph1">
+        This paragraph will be BLUE using CSS
+        </p>
+        
+        <ol start=11 title="Activity List">
+            <li>Something something</li>
+            <li>Something something</li>
+        </ol>
+        
+        <img src="http://puu.sh/nv4iJ/cb5a2db53d.png" alt="Animu stuff">
+            <figcaption> This is animu stuff right here.</figcaption> <!-- figcaption is used to put some sort of caption after an image -->
+        <hr>
+            <details>
+                <summary>This is a test details/summary tags</summary> <!-- this makes a list that you can expand by clicking it -->
+                <p>Test text 1</p>
+                <p>Test text 2</p>
+            </details>
+        <hr>
+        <code> <!-- apparently makes text look like it's "code"? -->
+        <p>What does this do?</p>
+            <p>Oh boy, looks like this text looks like this.</p>
+        </code>
+        <address> <!-- italicizes text? -->
+        <p>I will now test this thing</p>
+        </address>
+        
+    </body>
+</html>
